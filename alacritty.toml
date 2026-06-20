@@ -1,0 +1,67 @@
+[general]
+live_config_reload = true
+
+[terminal.shell]
+program = "wsl.exe"
+args = ["-d", "Ubuntu", "--cd", "~/dev"]
+
+[window]
+padding.x = 10
+padding.y = 10
+opacity = 1.0
+
+[font]
+size = 13.0
+
+[font.normal]
+family = "Cascadia Code"
+style = "Regular"
+
+[font.bold]
+family = "Cascadia Code"
+style = "Bold"
+
+[font.italic]
+family = "Cascadia Code"
+style = "Italic"
+
+[scrolling]
+history = 10000
+
+[cursor]
+style.shape = "Block"
+style.blinking = "On"
+blink_interval = 500
+unfocused_hollow = true
+
+[env]
+TERM = "xterm-256color"
+
+# Rose Pine Dawn
+[colors.primary]
+background = "#faf4ed"
+foreground = "#575279"
+
+[colors.cursor]
+text = "#faf4ed"
+cursor = "#cecacd"
+
+[colors.normal]
+black   = "#f2e9e1"
+red     = "#b4637a"
+green   = "#286983"
+yellow  = "#ea9d34"
+blue    = "#56949f"
+magenta = "#907aa9"
+cyan    = "#d7827e"
+white   = "#575279"
+
+[colors.bright]
+black   = "#9893a5"
+red     = "#b4637a"
+green   = "#286983"
+yellow  = "#ea9d34"
+blue    = "#56949f"
+magenta = "#907aa9"
+cyan    = "#d7827e"
+white   = "#575279"
