@@ -25,6 +25,12 @@ inoremap ' ''<Left>
 " Enter inside braces adds newline and indents
 inoremap {<CR> {<CR>}<Esc>ko
 
+
 " Save swap files at dedicated folder
 set swapfile
 set dir=~/.vim/swaps//
+
+
+" Jump to end and beginning of a line
+inoremap <C-l> <End>
+inoremap <C-h> <Home>
