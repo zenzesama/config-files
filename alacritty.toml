@@ -11,19 +11,16 @@ padding.y = 10
 opacity = 1.0
 
 [font]
-size = 13.0
+size = 15
 
 [font.normal]
-family = "Cascadia Code"
-style = "Regular"
+family = "MS Gothic fix"
 
 [font.bold]
-family = "Cascadia Code"
-style = "Bold"
+family = "MS Gothic fix"
 
 [font.italic]
-family = "Cascadia Code"
-style = "Italic"
+family = "MS Gothic fix"
 
 [scrolling]
 history = 10000
@@ -37,31 +34,35 @@ unfocused_hollow = true
 [env]
 TERM = "xterm-256color"
 
-# Rose Pine Dawn
+# Mostly monochrome with muted accents
 [colors.primary]
-background = "#faf4ed"
-foreground = "#575279"
+background = "#FFFFFF"
+foreground = "#000000"
 
 [colors.cursor]
-text = "#faf4ed"
-cursor = "#cecacd"
+text = "#FFFFFF"
+cursor = "#000000"
+
+[colors.selection]
+text = "#000000"
+background = "#DCE6F2"
 
 [colors.normal]
-black   = "#f2e9e1"
-red     = "#b4637a"
-green   = "#286983"
-yellow  = "#ea9d34"
-blue    = "#56949f"
-magenta = "#907aa9"
-cyan    = "#d7827e"
-white   = "#575279"
+black   = "#000000"
+red     = "#B4504B"
+green   = "#5E8A4F"
+yellow  = "#A68A2E"
+blue    = "#4A6FA5"
+magenta = "#8B5E94"
+cyan    = "#3F8A8C"
+white   = "#BFBFBF"
 
 [colors.bright]
-black   = "#9893a5"
-red     = "#b4637a"
-green   = "#286983"
-yellow  = "#ea9d34"
-blue    = "#56949f"
-magenta = "#907aa9"
-cyan    = "#d7827e"
-white   = "#575279"
+black   = "#4D4D4D"
+red     = "#D0645E"
+green   = "#74A664"
+yellow  = "#C2A13A"
+blue    = "#5E87C2"
+magenta = "#A674B0"
+cyan    = "#52A3A6"
+white   = "#E6E6E6"
